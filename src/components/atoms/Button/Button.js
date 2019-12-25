@@ -12,7 +12,7 @@ export default class Button extends PureComponent {
 
   static defaultProps = {
     buttonText: "Botão Padrão",
-    buttonColor: "#ff8100"
+    buttonColor: "#ff7d01"
   };
 
   render() {
