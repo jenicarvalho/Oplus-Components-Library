@@ -9,20 +9,23 @@ class Avatar extends PureComponent {
     /** Define a largura do componente * */
     width: PropTypes.string,
     /** Define a altura do componente * */
-    height: PropTypes.string
+    height: PropTypes.string,
+    /** Define a margem do componente * */
+    margin: PropTypes.string
   };
 
   static defaultProps = {
     src:
       "https://www.uclg-planning.org/sites/default/files/styles/featured_home_left/public/no-user-image-square.jpg",
     width: "50px",
-    height: "50px"
+    height: "50px",
+    margin: "0 10px"
   };
 
   render() {
-    const { src, width, height } = this.props;
+    const { src, width, height, margin } = this.props;
     return (
-      <Container style={{ width, height }}>
+      <Container style={{ width, height, margin }}>
         <img src={src} alt="Avatar" style={{ width, height }} />
       </Container>
     );
