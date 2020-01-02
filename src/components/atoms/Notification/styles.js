@@ -9,14 +9,14 @@ export const Container = styled.div`
     position: absolute;
     background: red;
     color: #fff;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     text-align: center;
-    line-height: 15px;
-    font-size: 11px;
+    line-height: 12px;
+    font-size: 9px;
     border-radius: 50%;
-    top: -9px;
-    right: -9px;
-    border: 2px solid #fff;
+    top: -5px;
+    right: -5px;
+    border: 1px solid #fff;
   }
 `;
