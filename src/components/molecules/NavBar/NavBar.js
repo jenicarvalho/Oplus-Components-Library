@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { FiMail } from "react-icons/fi";
+import { FiMail, FiUsers, FiBell } from "react-icons/fi";
 
 import { Nav, Container, NavLinks, Flex, Name } from "./styles";
 import { FiChevronDown } from "react-icons/fi";
@@ -24,8 +24,14 @@ export default class NavBar extends Component {
             </NavLinks>
           </Flex>
           <Flex>
-            <Notification quantityNumber={2} iconColor="#fff" iconFont="22px">
+            <Notification quantityNumber={2} iconColor="#fff" iconFont="21px">
+              <FiUsers />
+            </Notification>
+            <Notification quantityNumber={3} iconColor="#fff" iconFont="21px">
               <FiMail />
+            </Notification>
+            <Notification quantityNumber={1} iconColor="#fff" iconFont="21px">
+              <FiBell />
             </Notification>
             <Avatar
               src="https://randomuser.me/api/portraits/men/20.jpg"
