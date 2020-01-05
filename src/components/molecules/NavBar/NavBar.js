@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { FiMail, FiUsers, FiBell } from "react-icons/fi";
 
 import { Nav, Container, NavLinks, Flex, Name } from "./styles";
