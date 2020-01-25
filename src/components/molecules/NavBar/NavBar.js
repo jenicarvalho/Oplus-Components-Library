@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { FiMail, FiUsers, FiBell } from "react-icons/fi";
 
-import { Nav, Container, NavLinks, Flex, Name } from "./styles";
+import { Nav, Container, Flex, Name } from "./styles";
 import { FiChevronDown } from "react-icons/fi";
 import Logo from "../../atoms/Logo/Logo";
 import Notification from "../../atoms/Notification/Notification";
 import Avatar from "../../atoms/Avatar/Avatar";
+import NavLinks from "../../atoms/NavLinks/NavLinks";
 
 export default class NavBar extends Component {
   render() {
@@ -14,13 +15,7 @@ export default class NavBar extends Component {
         <Container>
           <Flex>
             <Logo white />
-            <NavLinks>
-              <a href="/">Home</a>
-              <a href="/">Profiles</a>
-              <a href="/">Projects</a>
-              <a href="/">Companies</a>
-              <a href="/">Jobs</a>
-            </NavLinks>
+            <NavLinks />
           </Flex>
           <Flex>
             <Notification quantityNumber={2} iconColor="#fff" iconFont="21px">
