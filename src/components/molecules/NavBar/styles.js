@@ -18,25 +18,6 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-export const NavLinks = styled.nav`
-  display: flex;
-
-  a {
-    display: block;
-    padding: 25px 15px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 300;
-    transition: all 0.3s ease;
-
-    &:hover {
-      background: #e96300;
-    }
-  }
-`;
-
 export const Flex = styled.div`
   display: flex;
   align-items: center;
