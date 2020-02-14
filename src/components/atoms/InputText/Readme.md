@@ -6,9 +6,9 @@ Padrão:
 </section>
 ```
 
-Com value:
+Placeholder Customizado: 
 ```js
 <section>
-  <InputText value="Seu nome"/>
+  <InputText placeholder="Texto placeholder" />
 </section>
 ```
