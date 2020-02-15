@@ -1,7 +1,6 @@
 {
   "name": "oplus-social-job-network-components-lib",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "jest": "^24.9.0",
