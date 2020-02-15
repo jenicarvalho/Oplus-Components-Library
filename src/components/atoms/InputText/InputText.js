@@ -6,26 +6,23 @@ export default class InputText extends PureComponent {
 
   state = {
     value: ''
-  };  
+  };
 
   handleChange = event => {
-    this.setState({value: event.target.value});
+    this.setState({ value: event.target.value });
   }
 
   static propTypes = {
     /** Define o placeholder do input * */
-    placeholder: PropTypes.string,
-    /** Função onChange* */
-    handleChange: PropTypes.func
+    placeholder: PropTypes.string
   }
 
   static defaultProps = {
-    placeholder: 'Valor padrão',
-    handleChange: () => {},
+    placeholder: 'Valor padrão'
   }
 
   render() {
-    const {  placeholder } = this.props;
+    const { placeholder } = this.props;
     return (
       <Container>
         <input type="text" onChange={this.handleChange} value={this.state.value} placeholder={placeholder} />
