@@ -3,26 +3,21 @@
 Components Library used on Oplus Social Project.
 We use styleguidist for our components styleguide.
 
+## View Components
+Click on this link to access the componentes tree [https://jenicarvalho.github.io/Oplus-Components-Library](https://jenicarvalho.github.io/Oplus-Components-Library)
+
 ## Installation
 
-Install the dependencies using yarn or npm.
+Install the library as a dependency on your project.
 
 ```bash
-yarn
+  npm i oplus-social-job-network-components-lib
 ```
 
-See the components tree using
+## Import Components
 
-```bash
-yarn styleguide
+```js
+import { Avatar } from 'oplus-social-job-network-components-lib'
 ```
 
-## Components Folder
-
-Example Logo Component
-
-- **Logo**
-  - Logo.js
-  - Logo.test.js
-  - Readme.md
-  - styles.js
+#### Any help will be aprecciated. Send a pull request or open an issue. 
