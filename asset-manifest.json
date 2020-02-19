@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.js": "/Oplus-Components-Library/static/js/main.a6133450.chunk.js",
-    "main.js.map": "/Oplus-Components-Library/static/js/main.a6133450.chunk.js.map",
-    "runtime-main.js": "/Oplus-Components-Library/static/js/runtime-main.612b6485.js",
-    "runtime-main.js.map": "/Oplus-Components-Library/static/js/runtime-main.612b6485.js.map",
-    "static/js/2.e37bd471.chunk.js": "/Oplus-Components-Library/static/js/2.e37bd471.chunk.js",
-    "static/js/2.e37bd471.chunk.js.map": "/Oplus-Components-Library/static/js/2.e37bd471.chunk.js.map",
+    "main.js": "/Oplus-Components-Library/build/main.a5a08502.js",
+    "runtime-main.js": "/Oplus-Components-Library/build/bundle.47e562ce.js",
+    "build/2.9223dd3c.js": "/Oplus-Components-Library/build/2.9223dd3c.js",
+    "build/2.9223dd3c.js.LICENSE": "/Oplus-Components-Library/build/2.9223dd3c.js.LICENSE",
     "index.html": "/Oplus-Components-Library/index.html",
-    "precache-manifest.8ff378882e1a8abfc508cedb60a96bc5.js": "/Oplus-Components-Library/precache-manifest.8ff378882e1a8abfc508cedb60a96bc5.js",
-    "service-worker.js": "/Oplus-Components-Library/service-worker.js",
-    "static/js/2.e37bd471.chunk.js.LICENSE": "/Oplus-Components-Library/static/js/2.e37bd471.chunk.js.LICENSE"
+    "precache-manifest.12d62a530ed62876c22eae31f7131758.js": "/Oplus-Components-Library/precache-manifest.12d62a530ed62876c22eae31f7131758.js",
+    "service-worker.js": "/Oplus-Components-Library/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.612b6485.js",
-    "static/js/2.e37bd471.chunk.js",
-    "static/js/main.a6133450.chunk.js"
+    "build/bundle.47e562ce.js",
+    "build/2.9223dd3c.js",
+    "build/main.a5a08502.js"
   ]
 }
